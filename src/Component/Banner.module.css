@@ -1,0 +1,55 @@
+.header {
+    position:relative;
+    z-index: 1;
+    height:350px;
+    width:100%;
+    background-color: rgb(17,17,17);
+}
+
+.banner .backdrop_path {
+    width:100%;
+    height:350px;
+    object-fit:cover;
+    object-position: 0px 0px;
+}
+
+.name{
+
+    position: absolute;
+    color:white;
+    font-weight: 700;
+    bottom:45%;
+    left:20px;
+}
+
+.btContain{
+    display: flex;
+    position: absolute;
+    top:60%;
+    justify-content: flex-start;
+    width:25%;
+    
+
+}
+
+.bt{
+    padding:5px 0px;
+    width: 100px;
+    margin-left: 20px;
+    border:transparent;
+    background-color: rgba(0, 0, 0, 0.438);
+    color:white;
+    font-weight: 600;
+
+}
+
+.overview{
+    position:absolute;
+    color:white;
+    top:72%;
+    left:20px;
+    width:30%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height:20%;
+}

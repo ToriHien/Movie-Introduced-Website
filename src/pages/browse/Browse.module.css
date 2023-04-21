@@ -1,0 +1,7 @@
+.app {
+    width: 100%;
+    position:relative;
+    height: 1000px;
+    margin-left: 0;
+    background-color: rgb(14,14,14);
+}

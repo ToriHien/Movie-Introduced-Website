@@ -1,0 +1,68 @@
+.searchForm{
+    position:absolute;
+    top:30%;
+    right:30%;
+    width: 40%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+label{
+    font-family: 'Helvetica', 'FontAwesome', sans-serif;
+    font-size: 1.4rem;
+    color:rgba(0, 0, 0, 0.385);
+    margin: 5px 20px;
+    position:absolute;
+    right:0;
+}
+input{
+    width:100%;
+    border: 0px;
+    border-bottom: 3px solid rgb(7, 188, 229);
+    height: 50px;
+}
+
+.btPart{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.rightPart{
+    width:40%;
+}
+
+.bt1{
+    width: 35%;
+    margin: 0px 10px;
+    border:0px;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 700 ;
+    padding:5px 15px;
+    color:gray;
+}
+
+.bt2{
+    width: 35%;
+    margin: 0px 10px;
+    border:0px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700 ;
+    background-color: rgb(7, 188, 229);
+    padding:5px 15px;
+}
+
+.bt1:hover{
+    color:black;
+}
+.bt2:hover{
+    color:black;
+}
+
+

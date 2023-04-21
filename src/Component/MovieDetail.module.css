@@ -1,0 +1,45 @@
+.movieDetail{
+    position:relative;
+    padding-top: 30px;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(17,17,17);
+}
+
+.leftPart{
+    width:50%;
+    margin-left:3%;
+}
+.leftPart h1{
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    margin-right:5%;
+}
+.relaseAndVote{
+    font-weight: 700;
+    margin-top: 20x;
+    margin-bottom: 25px;
+}
+.relaseAndVote p{
+    margin:0px;
+}
+
+.rightPart{
+    width:50%;
+}
+
+.rightPart .youtube{
+    width:95%;
+
+}
+
+.nothing{
+    font-size: 1.4rem;
+    color:white;
+}
+
+.imgReplace{
+    width:100%;
+    object-fit: contain;
+}
