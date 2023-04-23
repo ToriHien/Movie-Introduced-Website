@@ -31,7 +31,7 @@ const ResultList = (props) =>{
 	return (
         <React.Fragment>
             <div className={styles['resultList']}>
-                <p>Search Result</p>
+                <p>Search Results</p>
                 <MovieDetail movieData={movie2} search={movie2}/>
                 <div className={styles['backdropList']}>
                     {showResultList}
