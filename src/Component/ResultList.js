@@ -36,7 +36,6 @@ const ResultList = (props) =>{
                 <div className={styles['backdropList']}>
                     {showResultList}
                 </div>
-
             </div>
         </React.Fragment>
 	);
