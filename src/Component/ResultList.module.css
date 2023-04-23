@@ -22,7 +22,28 @@
 }
 
 .backdrop{
+    position: relative;
     width:10%;
     height:200px;
     margin:10px 0.5%;
+}
+.backdrop img{
+    width:100%;
+    height:100%;
+    z-index: 1;
+}
+
+.overlay{
+    position:absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    height: 100%;
+    transition: 0.5s;
+    background-color: transparent;
+    z-index: 15;
+}
+.overlay:hover{
+    background-color: rgba(255, 254, 254, 0.51);
+
 }

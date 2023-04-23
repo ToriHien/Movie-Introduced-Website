@@ -36,14 +36,14 @@ function MovieDetail(props) {
     async function fetchDataMovie(){
         setError(null);
         try{
-        const response = await fetch(`https://api.themoviedb.org/3//movie/${props.movieData.id}/videos?api_key=2840e75c2f60ee2c6299c2a831889bde`)
-        if(!response.ok){
-            throw new Error('bi loi DataBase')
-        }
-        const data = await response.json();
-        const transformedMovie = data.results;
-        setMovieFetch(youtubeData(transformedMovie));}
-        catch(error){
+            const response = await fetch(`https://api.themoviedb.org/3//movie/${props.movieData.id}/videos?api_key=2840e75c2f60ee2c6299c2a831889bde`)
+            if(!response.ok){
+                throw new Error('bi loi DataBase')
+            }
+            const data = await response.json();
+            const transformedMovie = data.results;
+            setMovieFetch(youtubeData(transformedMovie));
+        } catch(error){
             setError(error.message);
         }
     }  
@@ -59,7 +59,7 @@ function MovieDetail(props) {
 
     useEffect( () => {
         fetchDataMovie();
-    },[]);
+    },[props.search]);
     return(
        <React.Fragment>
         <div className={styles['movieDetail']} >
