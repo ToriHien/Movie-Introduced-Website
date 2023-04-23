@@ -32,7 +32,7 @@ const ResultList = (props) =>{
         <React.Fragment>
             <div className={styles['resultList']}>
                 <p>Search Results</p>
-                <MovieDetail movieData={movie2} search={movie2}/>
+                {dataMovie.length!==0 && <MovieDetail movieData={movie2} search={movie2}/>}
                 <div className={styles['backdropList']}>
                     {showResultList}
                 </div>
